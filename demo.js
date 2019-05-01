@@ -1,4 +1,12 @@
 fetch(
+    "https://studip-test.uos.de/api.php/user",
+    {
+        method: "GET",
+        credentials: "include"
+    }
+)
+
+fetch(
     "https://studip-test.uos.de/api.php/blubber/postings",
     {
         method: "POST",
